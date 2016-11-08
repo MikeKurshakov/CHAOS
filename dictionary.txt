@@ -19,3 +19,9 @@ chair           chair             Наявність достатнь
 timeS           time_stud         Вільний час студентів для проведення лекції
 timeL           time_lect         Вільний час лектора для проведення лекції
 timeR           time_room         Вільний час аудиторії для проведення лекції
+
+project-        project-          курсова робота
+author-         author-           автор курсової
+topic-          topic-            тема
+date-           date-             дата здачі
+course-         course-           курс
