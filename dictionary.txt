@@ -1,1 +1,8 @@
+Name-       Code-       Description-
+student-    student-     Ім'я студента-
+course-     course-      Курс студента-
+group-      group-       Група студента-
+lector-     lector-      Ім'я викладача-
+subject-    subject-     Назва предмету-
+mark-       mark-        Оцінка-
 
