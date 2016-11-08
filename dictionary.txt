@@ -6,3 +6,9 @@ lector-     lector-      Ім'я викладача-
 subject-    subject-     Назва предмету-
 mark-       mark-        Оцінка-
 
+project-    project-     курсова робота
+author-     author-      автор курсової
+topic-      topic-       тема
+date-       date-        дата здачі
+course-     course-      курс
+
