@@ -1,0 +1,163 @@
+
+Misha@Misha-PC MINGW64 /d/UsersD/misha/Desktop/EXAM/program
+$ git clone https://github.com/MikeKurshakov/ExamBash.git
+Cloning into 'ExamBash'...
+warning: You appear to have cloned an empty repository.
+
+Misha@Misha-PC MINGW64 /d/UsersD/misha/Desktop/EXAM/program
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+Misha@Misha-PC MINGW64 /d/UsersD/misha/Desktop/EXAM/program
+$ ^C
+
+
+Misha@Misha-PC MINGW64 /d/UsersD/misha/Desktop/EXAM/program
+$ cd ExamBash
+
+Misha@Misha-PC MINGW64 /d/UsersD/misha/Desktop/EXAM/program/ExamBash (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        main.c
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Misha@Misha-PC MINGW64 /d/UsersD/misha/Desktop/EXAM/program/ExamBash (master)
+$ git add main.c
+
+Misha@Misha-PC MINGW64 /d/UsersD/misha/Desktop/EXAM/program/ExamBash (master)
+$ git commit -m "Human"
+[master (root-commit) 3635c6e] Human
+ 1 file changed, 14 insertions(+)
+ create mode 100644 main.c
+
+Misha@Misha-PC MINGW64 /d/UsersD/misha/Desktop/EXAM/program/ExamBash (master)
+$ git status
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+nothing to commit, working tree clean
+
+Misha@Misha-PC MINGW64 /d/UsersD/misha/Desktop/EXAM/program/ExamBash (master)
+$ git branch new_feature
+
+Misha@Misha-PC MINGW64 /d/UsersD/misha/Desktop/EXAM/program/ExamBash (master)
+$ git checkout new_feature
+Switched to branch 'new_feature'
+
+Misha@Misha-PC MINGW64 /d/UsersD/misha/Desktop/EXAM/program/ExamBash (new_feature)
+$ git status
+On branch new_feature
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        car.c
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Misha@Misha-PC MINGW64 /d/UsersD/misha/Desktop/EXAM/program/ExamBash (new_feature)
+$ git add car.c
+
+Misha@Misha-PC MINGW64 /d/UsersD/misha/Desktop/EXAM/program/ExamBash (new_feature)
+$ git commit -m "Car"
+[new_feature 1344ab7] Car
+ 1 file changed, 13 insertions(+)
+ create mode 100644 car.c
+
+Misha@Misha-PC MINGW64 /d/UsersD/misha/Desktop/EXAM/program/ExamBash (new_feature)
+$ git status
+On branch new_feature
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        f_valid_n.c
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Misha@Misha-PC MINGW64 /d/UsersD/misha/Desktop/EXAM/program/ExamBash (new_feature)
+$ gti add f_valid_n.c
+bash: gti: command not found
+
+Misha@Misha-PC MINGW64 /d/UsersD/misha/Desktop/EXAM/program/ExamBash (new_feature)
+$ git add f_valid_n.c
+
+Misha@Misha-PC MINGW64 /d/UsersD/misha/Desktop/EXAM/program/ExamBash (new_feature)
+$ git commit -m "f_valid_n"
+[new_feature eb63725] f_valid_n
+ 1 file changed, 19 insertions(+)
+ create mode 100644 f_valid_n.c
+
+Misha@Misha-PC MINGW64 /d/UsersD/misha/Desktop/EXAM/program/ExamBash (new_feature)
+$ git checkout master
+Switched to branch 'master'
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+Misha@Misha-PC MINGW64 /d/UsersD/misha/Desktop/EXAM/program/ExamBash (master)
+$ git status
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+nothing to commit, working tree clean
+
+Misha@Misha-PC MINGW64 /d/UsersD/misha/Desktop/EXAM/program/ExamBash (master)
+$ git status
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        f_valid_age.c
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Misha@Misha-PC MINGW64 /d/UsersD/misha/Desktop/EXAM/program/ExamBash (master)
+$ git add f_valid_age.c
+
+Misha@Misha-PC MINGW64 /d/UsersD/misha/Desktop/EXAM/program/ExamBash (master)
+$ git commit -m "f_valid_age"
+[master bfbc271] f_valid_age
+ 1 file changed, 19 insertions(+)
+ create mode 100644 f_valid_age.c
+
+Misha@Misha-PC MINGW64 /d/UsersD/misha/Desktop/EXAM/program/ExamBash (master)
+$ git status
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+nothing to commit, working tree clean
+
+Misha@Misha-PC MINGW64 /d/UsersD/misha/Desktop/EXAM/program/ExamBash (master)
+$ git push -u origin master
+Username for 'https://github.com': MikeKurshakov
+Counting objects: 6, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 741 bytes | 0 bytes/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/MikeKurshakov/ExamBash.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+Misha@Misha-PC MINGW64 /d/UsersD/misha/Desktop/EXAM/program/ExamBash (master)
+$ git push -u origin new_feature
+Username for 'https://github.com': MikeKurshakov
+Counting objects: 6, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 745 bytes | 0 bytes/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/MikeKurshakov/ExamBash.git
+ * [new branch]      new_feature -> new_feature
+Branch new_feature set up to track remote branch new_feature from origin.
+
+Misha@Misha-PC MINGW64 /d/UsersD/misha/Desktop/EXAM/program/ExamBash (master)
+$
